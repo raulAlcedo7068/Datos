@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" .class="re">
+    <title>Document</title>
+</head>
+
+<body>
+<br>
+     <h3>Registrar</h3>
+     <br>
+    <form action="" class="mostrar" id="formulario">
+        <input type="email" id="txtEmail" placeholder="Ingresar tu email">
+        <br><br>
+        <input type="password" id="txtpassword" placeholder="Ingresar tu password">
+        <br><br>
+        <input type="button" value="Registrar" id="btnRegistrar">
+        <br><br>
+        <input type="button" value="Ingresar" id="btnIngresar">
+        <br><br>
+        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-256.png" alt="" height="30px" id="btnGoogle">
+        <br><br>
+        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png"alt="" height="30px" id="btnfacebook">
+
+    </form>
+
+
+    
+       <div class="contenidoDeLaweb ocultar" id="contenidoDeLaweb">   
+        <input type="button" value="Cerrar" id="btnCerrarSesion">
+        <br><br>
+        <h3>Aqui veras el contenido de la web</h3>
+        <div class="resultado" id ="resultado">      
+        </div>
+       
+       <div id="Comentarios">
+        <h3>Comentarios</h3>
+         <br>
+        <input type="text"placeholder="Escribe el Titulo" id="txtTitulo"><br>
+        <br><br>
+        <input type="text" placeholder="Escribe la descripcion"
+        id="TxTdescripcion"><br>
+        <br><br>
+        <input type="button" value="Publicar" id="btnPublicar">
+        <br><br>
+         <ul id="imprimirComentariosPatallas">
+            
+
+         </ul>
+       </div>
+
+    </div>
+
+        
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
