@@ -1,0 +1,51 @@
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+* {
+    margin: 0;
+}
+
+.imgProducto {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.productos {
+    text-align: center;
+    background-color: rgb(247, 167, 62);
+    margin: 20px;
+    padding: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.resultado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body {
+    text-align: center;
+}
+ .btnPublicar{
+    display: inline-block;
+    margin: 15px 10px;
+    
+    border-radius: 15px;
+
+
+}
+.listarDatosH5{
+    background-color: aquamarine;
+    width: 50%;
+}
