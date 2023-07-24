@@ -1,0 +1,120 @@
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.formulario{
+    display: flex;
+    text-align-last: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+    
+}
+.cajaform{
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.281);
+
+}
+
+.caja_Ingresa_Email{
+    
+    position: relative;
+    width:399px;
+}
+.caja_contraseña{
+    position: relative;
+    width: 399px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/aa/38/ba/salone-monumentale-arcidiacono.jpg?w=1200&h=-1&s=1');
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+
+    width: 100%;
+}
+.caja_Botones_inicio_registo{
+    position: relative;
+    width: 499px;
+    min-height: 13vh;
+    
+}
+input[type=email] {
+   width: 40%; 
+   box-sizing: border-box;
+   border: 2px solid #dbdbdb;
+   border-radius: 7px;
+   font-size: 19px;
+   background-color: white;
+   background-image: url()
+}
+input[type=password]{
+    width: 40%; 
+    box-sizing: border-box;
+    border: 2px solid #dbdbdb;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: white;
+    background-image: url()
+}
+input[type=button]{
+    background-color: rgb(8, 161, 16);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.Biblioteca{
+    background-image: url('https://s1.eestatic.com/2021/04/20/actualidad/575203498_178712747_1706x960.jpg');   
+    
+}
+
+.imgCiencia {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.Ciencia {
+    text-align: center;
+    background-color: rgb(247, 167, 62);
+    margin: 20px;
+    padding: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+
+}
+.resultado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.listarDatosH5{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
